@@ -1,0 +1,14 @@
+div {
+    line-height: 150%;
+    margin: 20px auto;
+    max-width: 30%;
+}
+img {
+    max-width: 80%;
+}
+.img {
+    text-align: center;    
+}
+.header {
+    font-weight: bold;
+}
