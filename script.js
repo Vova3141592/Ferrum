@@ -30,11 +30,11 @@ let push = {};
 
 function explanation(name, place) {
     if (push[place.id] == true) {
-        hideExplanation(place);
+        hideExplanation(place); // если вставлено, скрываем
     } else if (push[place.id] == false) {
-        showExplanation(place);
+        showExplanation(place); // если скрыто, показываем
     } else {
-        pasteExplanation(name, place);
+        pasteExplanation(name, place); // если не определено, вставляем
     };
 };
 
