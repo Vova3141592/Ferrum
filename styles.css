@@ -1,14 +1,37 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
 div {
     line-height: 150%;
     margin: 20px auto;
-    max-width: 30%;
+    max-width: 700px;
 }
+
+u {
+    text-decoration: underline #00ffff;
+    cursor: pointer;
+}
+
+.explanation {
+    max-width: 90%;
+}
+
 img {
     max-width: 80%;
+    border-radius: 20px;
 }
+
 .img {
     text-align: center;    
 }
+
 .header {
     font-weight: bold;
+}
+
+.hide {
+    display: none !important;
 }
